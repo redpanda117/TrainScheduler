@@ -1,0 +1,29 @@
+/* Background pattern from Subtle Patterns */
+
+body{
+    background-image: url(../images/concrete-texture/concrete-texture/concrete-texture.png);
+}
+th{
+    text-align: center;
+}
+.jumbotron h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Asset', cursive;
+}
+.jumbotron{
+    margin-top: 10px;
+    background-image: url(../images/Train-Tracks.jpg);
+    background-size: cover;
+  /* Image in the center of container */
+    background-position: center center;
+}
+.panel-default > .panel-heading {
+    background-color: #E2ADA1;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+
