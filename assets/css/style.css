@@ -19,8 +19,9 @@ th{
   /* Image in the center of container */
     background-position: center center;
 }
-.panel-default > .panel-heading {
-    background-color: #E2ADA1;
+.panel-default > .panel-heading 
+    background-color: #000000;
+    color:#FFFFFF;
     font-weight: bold;
     font-size: 20px;
     text-align: center;
