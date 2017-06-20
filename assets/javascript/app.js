@@ -39,6 +39,11 @@ $("#submit").on("click", function(event) {
         firstTime: firstTime,
         dateAdded: firebase.database.ServerValue.TIMESTAMP
     });
+//clear out the form 
+    $("#trainName").val("");
+    $("#destination").val("");
+    $("#trainFrequency").val("");
+    $("#firstTrainTime").val("");
  });
 
 // Create Firebase "watcher"    
@@ -83,7 +88,7 @@ $("#submit").on("click", function(event) {
             
         
 // Getting the information into the row of the table
-    var appendTR = "<tr><td>" + snapshot.val().trainName +"</td><td>"+ snapshot.val().destination + "</td><td>"+ snapshot.val().trainFrequency+" min" + "</td><td>" + moment(nextTrain).format("HH:mm") + "</td><td>" + tMinutesTillTrain +"</td></tr>"
+    var appendTR = "<tr><td>" + snapshot.val().trainName +"</td><td>"+ snapshot.val().destination + "</td><td>"+ snapshot.val().trainFrequency+" min" + "</td><td>" + moment(nextTrain).format("HH:mm") + "</td><td>" + tMinutesTillTrain + " min" +"</td></tr>"
     var tableRows = $("#trainTable").prepend(appendTR);
 
 // Create Error Handling

@@ -1,8 +1,6 @@
 /* Background pattern from Subtle Patterns */
 
-body{
-    background-image: url(../images/concrete-texture/concrete-texture/concrete-texture.png);
-}
+
 th{
     text-align: center;
 }
@@ -19,12 +17,14 @@ th{
   /* Image in the center of container */
     background-position: center center;
 }
-.panel-default > .panel-heading 
-    background-color: #000000;
+.panel-default>.panel-heading { 
+    background-color: #1B2C59;
     color:#FFFFFF;
     font-weight: bold;
     font-size: 20px;
     text-align: center;
 }
-
+.panel-default> .panel-body{
+    background-color: #F1F0F2
+}
 
