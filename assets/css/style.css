@@ -12,7 +12,8 @@ th{
 }
 .jumbotron{
     margin-top: 10px;
-    background-image: url(../images/Train-Tracks.jpg);
+   // background-image: url(../images/Train-Tracks.jpg);
+    background-color: #1B2C59;
     background-size: cover;
   /* Image in the center of container */
     background-position: center center;
