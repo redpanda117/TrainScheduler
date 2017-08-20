@@ -4,3 +4,5 @@ A train schedule application that incorporates Firebase to host arrival and depa
 
 Have some fun and try it out:
 https://redpanda117.github.io/TrainScheduler/
+
+![App starts](assets/images/Screenshot.jpg)
